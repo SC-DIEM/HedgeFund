@@ -1,0 +1,195 @@
+@charset "utf-8";
+
+/* --------------------------------------------------------------- */
+/* CSSカスタムプロパティ */
+/* --------------------------------------------------------------- */
+:root {
+  --scrollbar: 0;
+  --100vw: 100vw;
+  --vw: calc(var(--100vw) / 100);
+  --theme-color: #7a888c;
+}
+
+@media print {
+  :root {
+    --100vw: 1920px !important;
+  }
+}
+
+/* --------------------------------------------------------------- */
+/* common-btn */
+/* --------------------------------------------------------------- */
+
+/* type01 */
+.common-btn.type01 {
+
+}
+
+/* --------------------------------------------------------------- */
+/* common-title */
+/* --------------------------------------------------------------- */
+
+/* type01 */
+.common-title.type01 {
+
+}
+
+/* --------------------------------------------------------------- */
+/* 全体 */
+/* --------------------------------------------------------------- */
+
+body.fixed {
+  position: fixed;
+}
+
+/* --------------------------------------------------------------- */
+/* header */
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* footer */
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* pc / sp */
+/* --------------------------------------------------------------- */
+
+@media screen and (min-width: 768px) {
+	.pc-off {
+    display: none !important;
+  }
+}
+
+@media print {
+  .pc-off {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+	.sp-off {
+    display: none !important;
+  }
+}
+
+br.br {
+  display: none;
+}
+
+@media screen and (max-width: 375px) {
+  br.u375 {
+    display: inline;
+  }
+}
+
+@media screen and (max-width: 500px) and (min-width: 376px) {
+  br.u500 {
+    display: inline;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 501px) {
+  br.u767 {
+    display: inline;
+  }
+}
+
+@media screen and (max-width: 1120px) and (min-width: 768px) {
+  br.u1120 {
+    display: inline;
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1121px) {
+  br.u1200 {
+    display: inline;
+  }
+}
+
+@media screen and (max-width: 1480px) and (min-width: 1201px) {
+  br.u1480 {
+    display: inline;
+  }
+}
+
+/* --------------------------------------------------------------- */
+/* inner config */
+/* --------------------------------------------------------------- */
+.inner {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* 1200, 1000, 800 */
+.w1200 {
+  width: 1200px;
+}
+
+@media screen and (max-width: 1240px) {
+	.w1200 {
+    width: calc(100% - 40px);
+  }
+}
+
+.w1000 {
+  width: 1000px;
+}
+
+@media screen and (max-width: 1040px) {
+	.w1000 {
+    width: calc(100% - 40px);
+  }
+}
+
+.w800 {
+  width: 800px;
+}
+
+@media screen and (max-width: 840px) {
+	.w800 {
+    width: calc(100% - 40px);
+  }
+}
+
+/* 1440, 1080, 960, 840 */
+
+.w1440 {
+  width: 1440px;
+}
+@media screen and (max-width: 1480px) {
+	.w1440 {
+    width: calc(100% - 40px);
+  }
+}
+
+.w1080 {
+  width: 1080px;
+}
+@media screen and (max-width: 1120px) {
+  .w1080 {
+    width: calc(100% - 40px);
+  }
+}
+
+.w960 {
+  width: 960px;
+}
+
+@media screen and (max-width: 1000px) {
+  .w960 {
+    width: calc(100% - 40px);
+  }
+}
+
+.w840 {
+  width: 840px;
+}
+
+@media screen and (max-width: 880px) {
+  .w840 {
+    width: calc(100% - 40px);
+  }
+}

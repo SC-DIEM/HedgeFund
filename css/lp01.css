@@ -1,0 +1,16 @@
+.hp_fw-bold {
+  font-weight: bold;
+}
+
+.edit-area.type02 .block.column .box .item.voice .title--1:before {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 80px;
+  background-image: url(../img/ceo-img.jpeg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  position: absolute;
+  top: 0;
+  left: -40px;
+}
